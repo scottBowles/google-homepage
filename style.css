@@ -1,0 +1,146 @@
+header{
+    font-size: .805em;
+    margin-top: 12px;
+    margin-left: .75em;
+    padding-top: 1em;
+    padding-bottom: 5px;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: rgba(80, 80, 80, .925);
+    padding-left: 1.2em;
+}
+a:hover{
+    text-decoration: underline;
+}
+#about{ 
+    position: absolute;
+    left: 0;
+}
+#store{
+    position: absolute;
+    left: 4em;
+}
+#signin{
+    background-color: #4285F4;
+    border: none;
+    color: white;
+    padding: 7px 13px 7px 12px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    right: 2.3em;
+    top: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    height: 30px;
+    border-radius: 2px;
+}
+#appshighlight{
+    position: absolute;
+    top: 9px;
+    right: 9.2em;
+    opacity: .65;
+}
+#appshighlight:hover{
+    opacity: 1;
+}
+#images{
+    position: absolute;
+    right: 12.4em;
+}
+#gmail{
+    position: absolute;
+    right: 16.85em;
+}
+#logobox {
+    text-align: center;
+    margin-top: 126px;
+    margin-bottom: 24px;
+}
+#search{
+    text-align: center;
+}
+#searchbar{
+    margin: 0 auto;
+    height: 2.85em;
+    width: 392px;
+    border-color: rgba(40, 40, 40, .15);
+    border-width: 1px;
+    border-radius: 50px;
+    font-size: .96em;
+    padding: 0px 45px;
+}
+#searchbar:focus{
+    outline:none;
+}
+#searchbar:hover{
+    height: 2.9em;
+    width: 395px;
+    padding: px 45px;
+    box-shadow: 0px 1px 5px 0px rgba(80, 80, 80, .25);
+}
+#googlesearch, #feelinglucky{
+    background-color: rgba(80, 80, 80, .07);
+    border: 1px solid;
+    border-color: transparent;
+    margin: 30px 3px;
+    padding: 8px 15px 9px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: rgba(80, 80, 80, .925);
+}
+#googlesearch:hover, #feelinglucky:hover{
+    border: 1px solid;
+    border-color: rgba(80, 80, 80, .35);
+    box-shadow: 0px 1px rgba(80, 80, 80, .15);
+}
+body{
+    margin-bottom: 100px;
+    min-width: 979px;
+}
+footer{
+    background-color: rgba(80, 80, 80, .08);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 12px;
+    padding-bottom: 28px;
+    border-top: 1px solid rgba(80, 80, 80, .055);
+    min-width: 979px;
+}
+#advertising{
+    position: absolute;
+    left: 13px;
+    bottom: 13px;
+}
+#business{
+    position: absolute;
+    left: 109px;
+    bottom: 13px;
+}
+#howSearchWorks{
+    position: absolute;
+    left: 193px;
+    bottom: 13px;
+}
+#privacy{
+    position: absolute;
+    right: 173px;
+    bottom: 13px;
+}
+#terms{
+    position: absolute;
+    right: 108px;
+    bottom: 13px;
+}
+#settings{
+    position: absolute;
+    right: 30px;
+    bottom: 13px;
+}
